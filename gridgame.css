@@ -1,0 +1,103 @@
+body {
+background-color: rgb(4, 34, 46);
+}
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.title {
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffffffcc;
+    
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width:40%;
+    height:330px;
+    margin: 0 auto;
+    border: 3px solid gray;
+    background-color: gray;  
+    border-radius: 7px;
+}
+
+.grid div {
+    width: 24%;
+    height: 77px;
+    text-align: center;
+    font-size: 30px;
+    margin:2px;
+    border:1px solid lightgray;
+    font-weight: bold;
+    background-color: lightgray;
+    padding-top: 13px;
+    border-radius: 3px;
+
+    
+}
+.score-container {
+    width:50px;
+    height:50px;
+    background-color: lightgrey;
+    font-size: 20px;
+   
+    font-weight: bold;
+    border: 2px solid ;
+    float: left;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 3px;
+}    
+.bestscore-container {
+    width:100px;
+    height:50px;
+    background-color: lightgrey;
+    font-size: 20px;
+   
+    font-weight: bold;
+    border: 2px solid ;
+    float: left;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 3px;
+}    
+.tile {
+    box-sizing: border-box;
+    border: 1px solid;
+    text-align: center;
+}
+#result {
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    float: left;   
+    color: #ffffffcc;
+}
+.text {
+    display: inline-block;
+    width:30%;
+   
+}
+button  {
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color:darkgrey;
+    padding: 10px;   
+}
+button:hover {
+    background-color: gray;
+}
+
+
+
+
+
+
